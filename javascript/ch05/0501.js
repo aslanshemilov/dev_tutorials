@@ -72,3 +72,13 @@ while (true) {
     counter++;
     break; //comment out the break if you want an infinite while loop
 }
+
+//do-while loop
+do { //guarantees stuff inside will be executed at least once
+    console.log(
+        "myArray has " +
+        myArray.length +
+        " items now. This loop goes until false."
+    );
+    myItem = myArray.pop();
+} while (myItem !== false);
