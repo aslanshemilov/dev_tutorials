@@ -65,3 +65,7 @@ counties.pop(); //Should return Coos, Coos is removed from array
 delete counties[2]; //deletes an entry
 
 counties.splice(2, 1); //removes an element entirely, cuts down length of array
+
+/* You can make
+comments like 
+this */

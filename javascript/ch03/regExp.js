@@ -10,14 +10,15 @@ console.log(regex.test(string2));
 console.log(regex.test(string3));
 console.log(regex.test(string4));
 
-regex = /this/i;
+regex = /this/i; //When 'i' flag is added, becomes case-insensitive
 
-regex = /^this/i;
+regex = /^this/i; //Adding '^', checks at beginning of strings
 
-regex = /this$/i;
+regex = /this$/i; //Adding '$', checks at end of strings
 
-regex = /ever.$/i;
+regex = /ever.$/i; //Checking for different word. Checks if 'ever' appears at end, 
+// dot at end - checking if 'ever' followed by any single character appears there
 
-regex = /ever\.$/i;
+regex = /ever\.$/i; //If you want to check for literal dot, use escape sequence
 
 regex = /Moun.$/i;
